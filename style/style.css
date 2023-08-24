@@ -8,25 +8,27 @@ body, h1, h2, h3, h4, h5, h6, p, ul, li {
 
 header {
 	background-color: #ffffff;
-	/* Set your header background color */
 	color: #000000;
-	/* Set text color */
 	padding: 10px 0;
 }
+
 /* Basic font for the content text */
 
 body {
 	font-family: 'Open Sans', sans-serif;
 	/* Global text font */
 }
+
 .navbar li {
 	font-family: 'Montserrat', sans-serif;
 	/* Menu font */
 }
+
 h1, h2, h3 {
 	font-family: 'Playfair Display', serif;
 	/* Title font */
 }
+
 /* Styling for the navigation bar */
 
 .navbar {
@@ -38,18 +40,20 @@ h1, h2, h3 {
 	margin: 15px auto;
 	padding: 0 20px;
 }
+
 /* Styling for the logo */
 
 .logo img {
 	height: auto;
 	max-height: 50px;
-	/* Set your desired logo height */
 }
+
 .logo a {
 	text-decoration: none;
 	color: black;
 	font-weight: 700;
 }
+
 /* Styling for the navigation menu */
 
 .menu {
@@ -58,19 +62,21 @@ h1, h2, h3 {
 	gap: 30px;
 	color: #000000;
 }
+
 .menu li {
 	font-size: 16px;
 }
+
 .menu li a {
 	text-decoration: none;
 	color: #000000;
-	/* Set link color */
 	transition: color 0.3s;
 }
+
 .menu li a:hover {
 	color: #00C2FF;
-	/* Set link color on hover */
 }
+
 /* Styling for the buttons */
 
 .buttons {
@@ -78,11 +84,10 @@ h1, h2, h3 {
 	align-items: center;
 	gap: 10px;
 }
+
 .login-button, .signup-button {
 	background-color: #00C2FF;
-	/* Set button background color */
 	color: #ffffff;
-	/* Set button text color */
 	font-size: large;
 	border: none;
 	padding: 8px 15px;
@@ -90,57 +95,51 @@ h1, h2, h3 {
 	cursor: pointer;
 	transition: background-color 0.3s;
 }
+
 .login-button:hover, .signup-button:hover {
-	background-color: #0011fc;
-	/* Set button background color on hover */
+	background-color: #36384e;
 }
-/* Responsive styles */
+
+/* Responsive styles For Menu */
 
 @media screen and (max-width: 770px) {
-	.menu {
-		display: none;
-		/* Cacher l'élément */
-		width: 0;
-		/* Ajuster la largeur à zéro */
-		height: 0;
-		/* Ajuster la hauteur à zéro */
-		padding: 0;
-		/* Supprimer le padding */
-		margin: 0;
-		/* Supprimer les marges */
-		/* Autres ajustements si nécessaire */
+.menu {
+	display: none;
+	width: 0;
+	height: 0;
+	padding: 0;
+	margin: 0;
 	}
-	.banner {
-		text-align: center;
-		width: 100%;
-		background-position-x: 50;
+.banner {
+	text-align: center;
+	width: 100%;
+	background-position-x: 50;
 	}
 }
+
+
 /* Styling for the banner section */
 
 .banner {
 	background-image: url('../img/alyah\ alya\ alia\ israel.jpg');
-	/* Set your banner image */
 	background-size: cover;
 	background-position: center;
 	color: white;
-	/* Set text color */
 	text-align: center;
 	display: flex;
-	/* Use flexbox */
 	align-items: center;
-	/* Vertically center items */
 	justify-content: center;
-	/* Horizontally center items */
 	min-height: 60vh;
-	/* Ensure the banner takes at least the full viewport height */
 }
+
 .banner-content {
 	justify-content: space-between;
 	text-align: center;
 	max-width: 800px;
 	margin: 0 auto;
 }
+
+
 /* New styling for the underlined text */
 
 .highlighted-text {
@@ -149,14 +148,11 @@ h1, h2, h3 {
 }
 .after-text {
 	background-color: #00C2FF;
-	/* Set the background color for the highlight */
 	color: white;
-	/* Set text color for the word "After" */
 	padding: 0 5px;
-	/* Adjust padding as needed */
 	font-weight: bold;
-	/* Make the "After" text bold */
 }
+
 .banner h1 {
 	font-size: 36px;
 	margin-bottom: 20px;
@@ -165,128 +161,10 @@ h1, h2, h3 {
 	font-size: 18px;
 	margin-bottom: 30px;
 }
-.cta-button {
-	display: inline-block;
-	background-color: #ffc107;
-	/* Set button background color */
-	color: white;
-	/* Set button text color */
-	padding: 10px 20px;
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 16px;
-	transition: background-color 0.3s;
-}
-.cta-button:hover {
-	background-color: #ff9800;
-	/* Set button background color on hover */
-}
-/* Existing styles */
+
+
 
 /* New styling for the welcome section */
-
-.welcome-section {
-	display: flex;
-	flex-wrap: wrap;
-	background-color: #f5f5f5;
-	/* Set background color */
-	padding: 80px 0;
-	/* Adjust padding as needed */
-}
-.welcome-content {
-	max-width: 1200px;
-	margin: 0 auto;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-}
-.welcome-content h2 {
-	font-size: 28px;
-	margin-bottom: 20px;
-}
-.columns {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 40px;
-	/* Adjust gap between columns */
-}
-.column {
-	flex: 1;
-	min-width: calc(50% - 20px);
-	/* Adjust width of columns */
-}
-.image img {
-	max-width: 100%;
-	height: auto;
-}
-/* Styling for the box section */
-
-.box-section-welcome {
-	background-color: white;
-	padding-top: 80px;
-	padding-left: 75px;
-	padding-right: 75px;
-	text-align: center;
-}
-.box-flex-container-welcome {
-	display: flex;
-	justify-content: space-between;
-	gap: 5px;
-	margin-top: 20px;
-	padding: 25px 25px;
-}
-.box-welcome {
-	flex-basis: calc(50%);
-	/* Adjust for gap between boxes */
-	padding: 20px 20px!important;
-	text-align: center;
-	align-items: center;
-	border-radius: 10px;
-	box-sizing: border-box;
-	/* Include padding and border in box size */
-}
-.box-welcome img {
-	text-align: center;
-}
-.box-welcome p {
-	font-size: 20px;
-}
-/* Responsive styles */
-
-@media screen and (max-width: 950px) {
-	.box-flex-container-welcome {
-		flex-direction: column;
-		/* Change to a single column layout on smaller screens */
-	}
-}
-/* Responsive styles */
-
-@media screen and (max-width: 450px) {
-	.box-welcome {
-		width: 100%;
-		flex-basis: 100%;
-		/* Take up full width on smaller screens */
-		margin-bottom: 20px;
-		/* Add margin between boxes on smaller screens */
-	}
-}
-
-@media screen and (max-width: 550px) {
-	.box-flex-container-welcome {
-		flex-direction: column;
-		/* Change to a single column layout on smaller screens */
-	}
-
-.box-welcome img {
-    display: none;
-  }
-
-}
-/* Responsive styles */
-
-
-
 
 .centered {
 	align-items: center!important;
@@ -295,12 +173,70 @@ h1, h2, h3 {
 	margin-bottom: 10px;
 }
 .divider {
-	width: 80px;
-	height: 8px;
+	width: 150px;
+	height: 10px;
 	background-color: #00C2FF;
 	margin: 0 auto 25px;
 	border-radius: 4px;
 }
+
+
+.box-section-welcome {
+	background-color: white;
+	padding-top: 80px;
+	padding-left: 75px;
+	padding-right: 75px;
+	text-align: center;
+}
+
+.box-flex-container-welcome {
+	display: flex;
+	justify-content: space-between;
+	gap: 5px;
+	margin-top: 20px;
+	padding: 25px 25px;
+}
+
+.box-welcome {
+	flex-wrap: wrap;
+	flex-basis: calc(50%);
+	padding: 20px 20px!important;
+	text-align: center;
+	align-items: center;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+
+.box-welcome img {
+	text-align: center;
+}
+
+.box-welcome p {
+	font-size: 20px;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 950px) {
+	.box-flex-container-welcome {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.box-flex-container-welcome {
+		flex-direction: column;
+	}
+
+.box-welcome img {
+    display: none;
+  }
+
+}
+
+
+
+/* Styling for the box section */
 
 .divider9step {
 	width: 80px;
@@ -310,6 +246,7 @@ h1, h2, h3 {
 	border-radius: 4px;
 	margin-top: 15px;
 }
+
 .read-more {
 	display: inline-block;
 	margin-top: 20px;
@@ -321,7 +258,6 @@ h1, h2, h3 {
 }
 
 
-/* Styling for the box section */
 
 .box-section {
 	background-color: #00c3ff8c;
@@ -337,28 +273,45 @@ h1, h2, h3 {
 }
 .boxs {
 	flex-basis: calc(33.33% - 20px);
-	/* Adjust for gap between boxes */
 	background-color: #ffffff;
 	padding: 20px;
 	text-align: center;
 	border-radius: 10px;
 	box-sizing: border-box;
-	/* Include padding and border in box size */
 }
+
+.boxs:hover {
+	background-color: #36384e;
+	color: #fff;
+	cursor: pointer;
+	transform: scale(1.08); /* Scale up the box on hover */
+  }
+
+  .read-more:hover {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: white;
+	color:  #00C2FF;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+
 /* Responsive styles */
 
 @media screen and (max-width: 768px) {
 	.box-flex-container {
 		flex-direction: column;
-		/* Change to a single column layout on smaller screens */
 	}
 	.boxs {
 		flex-basis: 100%;
-		/* Take up full width on smaller screens */
 		margin-bottom: 20px;
-		/* Add margin between boxes on smaller screens */
 	}
 }
+
+/* footer */
+
 .footer {
 	background-color: #36384E;
 	color: #fff;
@@ -436,4 +389,6 @@ label a {
 	color: #00c2ff;
 	text-decoration: none;
 }
+
+
 /* Rest of your existing styles */
